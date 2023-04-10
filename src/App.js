@@ -1,15 +1,17 @@
 import { Card } from "./componentes/Card/Card";
+import { Cabecalho } from "./componentes/Cabecalho/Cabecalho";
 import { Estilos } from "./componentes/EstilosGlobais/Estilos";
+import { ProvedorTema } from "./componentes/ProvedorTema/ProvedorTema";
 
 function App() {
   return (
-    <div>
+    <ProvedorTema>
       <Estilos />
-      <h1>freelando</h1>
+      <Cabecalho />
       <Card>
         <h1>teste</h1>
       </Card>
-    </div>
+    </ProvedorTema>
   );
 }
 
