@@ -16,6 +16,7 @@ const InputEstilizado = styled.input`
     height: 40px;
     box-sizing: border-box;
     margin-top: ${props => props.theme.espacamentos.xs};
+    margin-bottom: ${props => props.theme.espacamentos.s};
     border: 1px solid;
     border-color: ${props => props.theme.cores.neutras.a};
     border-radius: ${props => props.theme.espacamentos.s};
